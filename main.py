@@ -70,7 +70,7 @@ class CompanyManagement:
 if __name__ == "__main__":
     company = CompanyManagement()
     company.add_employee(1, "MrQu", "Manager", 5000)
-    company.add_employee(2, "Mark", "Planer", 5000)
+    company.add_employee(2, "Mark", "Planer", 3000)
 
     company.add_inventory_item(1, "Laptop", 800, 10)
     company.add_inventory_item(2, "Phone", 500, 20)
